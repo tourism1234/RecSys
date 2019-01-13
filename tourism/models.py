@@ -12,6 +12,7 @@ class HillStations(models.Model):
 	railway_dist = models.FloatField()
 	elevation = models.IntegerField()
 	avg_rating = models.FloatField()
+	logo = models.FileField()
 
 	def __str__(self):
 
